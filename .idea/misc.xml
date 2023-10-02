@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Black">
+    <option name="executionMode" value="BINARY" />
+    <option name="pathToExecutable" value="E:\Kuby\Anaconda to Python\Scripts\black.exe" />
+    <option name="sdkUUID" value="082bce5c-55fd-46d9-b7e8-80d6d24f184a" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.11 (BlackJack)" project-jdk-type="Python SDK" />
+</project>
