@@ -56,7 +56,7 @@ class Card:
     :return: A string representation of the object
     :doc-author: Trelent
     """
-        return f'card - {self.value + " " + self.color}'
+        return f'card - {self.value} {self.color}'
 
 
 # card = Card('Ace', 'Spades')
