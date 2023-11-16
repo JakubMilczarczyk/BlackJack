@@ -12,8 +12,17 @@ class Player:
 
         points = 0
         # TODO AS!!!
+
+        number_of_aces = len([card for card in self.cards if card.value == 'Ace'])
+        if number_of_aces == 2 and len(self.cards) == 2:
+            return 21
+        if number_of_aces == 1 and len(self.cards) == 2:
+            points = 10
+
         for card in self.cards:
-            if card.value in ['Ace', 'King', 'Queen', 'Jack']:
+            if card.value == 'Ace':
+                points += 1
+            elif card.value in ['King', 'Queen', 'Jack']:
                 points += 10
             else:
                 points += card.value
