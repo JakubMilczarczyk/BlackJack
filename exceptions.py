@@ -7,4 +7,6 @@ class GameOverPlayerException(Exception):
     pass
 
 
+class GameOverCroupierException(Exception):
+    pass
 

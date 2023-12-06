@@ -1,6 +1,7 @@
 from card import Card
 from exceptions import GameOverException
 
+
 class Player:
     def __init__(self):
         self.cards = []
